@@ -1,8 +1,17 @@
+dataset:
+  - name: student
+    path: etl_factory_pattern_demo/data/data.csv
+  - name: exam_score
+    path: etl_factory_pattern_demo/data/result.csv
+
+output:
+  path: etl_factory_pattern_demo/data/output
+  name: result
 process:
   - name: Extract
 
-  - name: Clean
+  # - name: Clean
 
-  - name: Transform
+  # - name: Transform
 
-  - name: Write
+  # - name: Write
