@@ -1,0 +1,8 @@
+process:
+  - name: Extract
+
+  - name: Clean
+
+  - name: Transform
+
+  - name: Write
